@@ -1,0 +1,92 @@
+body{
+    margin: 0;
+    padding: 10px;
+    font-family: 'Roboto', sans-serif;
+    background: #7dd4fca9;
+}
+
+#main{
+    width: 550px;
+    margin: 20px auto 0 auto;
+    border-radius: 20px;
+    text-align: center;
+    background: #F4F4F4;
+}
+
+#input-container{
+    background: #0284C7;
+    border-radius: 20px 20px 0 0;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 40px;
+}
+
+#input-container h1{
+    margin: 0;
+    font-weight: 800;
+}
+
+#input-container input{
+    width: 117px;
+    height: 83px;
+    border: 1px solid #F4F4F4;
+    border-radius: 5px;
+    background: #0284C7;
+    color: white;
+    text-align: center;
+    font-size: 58px;
+    font-weight: bolder;
+    margin-top: 30px;
+}
+
+#input-container button{
+    width: 117px;
+    background-color: #FFFFFF;
+    border: 1px solid #F4F4F4;
+    border-radius: 5px;
+    border: none;
+    padding: 9px 27px;
+    margin-top: 25px;
+    color: #3D3D3D;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+#conversion-container{
+    padding: 12px 25px;
+}
+
+.conversion{
+    background: white;
+    padding: 31px 77px 18.5px 77px;
+    margin: 23px 0;
+}
+
+.conversion h3{
+    color: #3D3D3D;
+    margin: 0;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.conversion p{
+    margin-top: 9px;
+    color: #353535;
+    font-size: 14px;
+}
+
+#mode-btn{
+    background: #0C4A6E;
+    border: none;
+    border-radius: 5px;
+    padding: 9px 27px;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+/* DARK MODE STYLES */
+/* COMING IN NEXT VERSION! */
